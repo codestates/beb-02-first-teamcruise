@@ -1,1 +1,4 @@
-# beb-02-first-teamcruise
+# 실행 명령어 #
+```
+$ npm start
+```
