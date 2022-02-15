@@ -9,6 +9,7 @@ const Navbar = () => {
 			<div className="navbar">
 					<Search />
 				<ul className="link">
+					<Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}><li>Home</li></Link>
 					<Link to="/explore" style={{ textDecoration: 'none', color: 'inherit' }}><li>Explore</li></Link>
 					<Link to="/create" style={{ textDecoration: 'none', color: 'inherit' }}><li>Create</li></Link>
 					<Link to="#" style={{ textDecoration: 'none', color: 'inherit' }}><li>ConnectWallet</li></Link>
