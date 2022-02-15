@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -14,8 +15,8 @@ const Home = () => {
 					</div>
 					{/* button from https://getbootstrap.com/docs/4.3/components/buttons/ */}
 					<div style={{display: "flex", marginTop: "10%", justifyContent: "center"}}>
-						<button type="button" class="btn btn-primary btn-lg" style={{width: "25%", marginRight: "10%"}}>Explore</button>
-						<button type="button" class="btn btn-outline-primary btn-lg" style={{width: "25%", marginRight: "10%"}}>Create</button>
+						<Link to="/explore" style={{marginRight: "5%"}}><button type="button" class="btn btn-primary btn-lg" style={{width: "100%", margin: "auto"}}>Explore</button></Link>
+						<Link to="/create"><button type="button" class="btn btn-outline-primary btn-lg" style={{width: "100%", margin: "auto"}}>Create</button></Link>
 					</div>
 			</div>
 			<div className="div-right" style={{float: 'right', width: '55%', padding: '3% 3% 3% 3%', margin: 'auto'}}>
