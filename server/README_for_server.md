@@ -15,9 +15,10 @@
             > 0x88877046D5a59B9DE8E475D425521625A4a77345
 
     - params(query) 정보 
-    |key|value|desc
-    |------|---|-------|
-    |erc721Addr|0x88877046D5a59B9DE8E475D425521625A4a77345|
+    
+    |key|value|desc|
+    |------|---|---|
+    |erc721Addr|0x88877046D5a59B9DE8E475D425521625A4a77345|가져오고자 하는 NFT의 ERC721 contract의 주소|
 
 
 
@@ -43,8 +44,9 @@
 
 
     - params(query) 정보 
-    |key|value|desc
-    |------|---|-------|
+    
+    |key|value|desc|
+    |------|---|---|
     |erc721Addr|0x88877046D5a59B9DE8E475D425521625A4a77345|가져오고자 하는 NFT의 ERC721 contract의 주소|
     |account|0xc2F5c15608a36eA38a7e8464254C230aca2cf4A1|조회하고 싶은 account의 주소(여기서는 Account 1의 주소임)|
 
