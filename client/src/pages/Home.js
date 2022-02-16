@@ -20,7 +20,7 @@ const Home = () => {
 					</div>
 			</div>
 			<div className="div-right" style={{float: 'right', width: '55%', padding: '3% 3% 3% 3%', margin: 'auto'}}>
-				<img src="https://www.coindeskkorea.com/news/photo/202103/73065_10919_4125.jpg" width="100%" height="100%"></img>
+				<img src="https://www.coindeskkorea.com/news/photo/202103/73065_10919_4125.jpg" width="100%" height="100%" alt='beeple_nft_img'></img>
 			</div>
 		</div>
 	);
