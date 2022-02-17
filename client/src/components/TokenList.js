@@ -1,6 +1,7 @@
 import React from 'react';
+import Erc721 from './Erc721'
 
-const NFTinfo = () => {
+const TokenList = () => {
 	return (
 		<>
 			<div style={{ width: '24%', height: '500px',  padding: '1.5% 1.25% 1.5% 1.25%', marginLeft: '15px', marginTop: '15px', border: '2.5px solid rgb(0, 0, 0)', float: 'left' }}>
@@ -104,4 +105,4 @@ const NFTinfo = () => {
 	);
 }
 
-export default NFTinfo;
+export default TokenList;
