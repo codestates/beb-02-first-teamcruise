@@ -56,9 +56,9 @@
 * 사용 방법<br>
     이 js 파일을 import 하여 함수를 호출할 수 있음.
 
-    ---
-    ## 기타 정보
-    1. 왜 이렇게 코드를 짰는지 + 기타 설명<br>
-        => https://myumyu-ming.tistory.com/58
-    2. front-end와 연결 예시 코드(위 블로그에서 사용한 코드)<br>
-        => https://github.com/Seomingyun/OpenseaPractice
+---
+## 기타 정보
+1. 왜 이렇게 코드를 짰는지 + 기타 설명<br>
+    => https://myumyu-ming.tistory.com/58
+2. front-end와 연결 예시 코드(위 블로그에서 사용한 코드)<br>
+    => https://github.com/Seomingyun/OpenseaPractice
