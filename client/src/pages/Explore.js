@@ -1,11 +1,11 @@
 import React from 'react';
-import NFTinfo from '../components/NFTinfo';
+import TokenList from '../components/TokenList';
 
 const Explore = () => {
 
 	return(
 		<div>
-			<NFTinfo />
+			<TokenList />
 		</div>
 	);
 };
