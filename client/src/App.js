@@ -8,8 +8,9 @@ import Detail from './pages/Detail';
 import { Switch, Route } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
-function App() {
 
+
+function App() {
 	const [web3, setWeb3] = useState();
 	
     useEffect(() => {
@@ -22,7 +23,6 @@ function App() {
             }
         }
     }, []);
-
 
 	return (
 		<BrowserRouter>
